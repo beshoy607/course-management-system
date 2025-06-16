@@ -1,0 +1,6 @@
+no sh
+conf t
+enable
+ip address 192.168.11.1 255.255.255.0
+exit
+int g0/0/0
